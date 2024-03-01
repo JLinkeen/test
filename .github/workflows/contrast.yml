@@ -15,9 +15,9 @@ jobs:
           java-version: '11'
           distribution: 'adopt'
 
-      - name: build jar
-        run: |
-          mvn clean install -DskipTests
+      # - name: build jar
+      #   run: |
+      #     mvn clean install -DskipTests
 
       - name: Contrast SCA Action
         uses: Contrast-Security-OSS/contrast-sca-action@v1
